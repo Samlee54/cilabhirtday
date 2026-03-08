@@ -39,15 +39,15 @@ document.addEventListener("DOMContentLoaded", function () {
     "December",
   ];
 
-  const targetDay = 7;
-  const targetMonthIndex = 11; // December
-  const targetYear = 2024;
-  const birthYear = 2001;
+  const targetDay = 9;
+  const targetMonthIndex = 2; // march
+  const targetYear = 2011;
+  const birthYear = 2011;
 
   let currentDay = 1;
   let currentMonthIndex = 0;
   let currentYear = birthYear;
-  let currentAge = 0;
+  let currentAge = 15;
 
   const interval = setInterval(() => {
     // Update day, month, year, and age in the DOM
